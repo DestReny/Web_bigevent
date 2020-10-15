@@ -29,6 +29,8 @@ $(function () {
         // 重置表单
         // [0] 将jQuery对象转换成原生JS对象
         $('.layui-form')[0].reset()
+        // 用户修改密码成功后返回到登录页面
+        top.location.href = '/login.html'
       }
     })
   })
